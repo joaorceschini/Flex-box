@@ -1,0 +1,29 @@
+@import 'reset.css';
+
+.title {
+    color: #0055ff;
+}
+
+.fonte {
+    font-size: 4em;
+}
+
+#nascimento {
+    color: #57cfe6;
+}
+
+input[type$="ext"] {
+    width: 120px;
+    height: 20px;
+    color: aquamarine;
+    transition: 1s;
+    border: 1px solid darkred;
+}
+
+input[type="text"]:hover {
+    width: 200px;
+    height: 40px;
+    color: greenyellow;
+    font-size: 1.5em;
+    border: 1px solid red;
+}
